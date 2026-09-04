@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ginko.ai/schemas/ginko-config.json",
+  "version": "1.0",
+  "project": {
+    "name": "qco",
+    "type": "single"
+  },
+  "paths": {
+    "docs": "docs",
+    "sprints": "docs/sprints",
+    "prds": "docs/PRD",
+    "adrs": "docs/adr",
+    "architecture": "docs/architecture",
+    "backlog": "backlog",
+    "context": ".ginko/context/modules",
+    "sessions": ".ginko/sessions",
+    "bestPractices": ".ginko/best-practices"
+  },
+  "workMode": {
+    "default": "think-build",
+    "documentationDepth": {
+      "hack-ship": [
+        "sprints",
+        "sessions"
+      ],
+      "think-build": [
+        "sprints",
+        "sessions",
+        "adrs",
+        "prds"
+      ],
+      "full-planning": [
+        "sprints",
+        "sessions",
+        "adrs",
+        "prds",
+        "architecture",
+        "bestPractices"
+      ]
+    }
+  },
+  "contextLoading": {
+    "progressive": true,
+    "maxDepth": 3,
+    "followReferences": true,
+    "priorityOrder": [
+      "sessions",
+      "sprints",
+      "prds",
+      "adrs",
+      "context"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+# GINKO PROTECTED FILES
+#
+# These files are local-only state with NO remote backup.
+# Deleting them causes silent failures and permanent data loss.
+#
+# AI assistants: NEVER delete, move, or git-rm these files.
+# Developers: Run `ginko init --upgrade` to reinstall the
+#   pre-commit hook if it's missing.
+#
+# Format: relative-path-from-.ginko/ | reason
+
+graph/config.json | Graph connection ID and document hashes. No remote backup.
+sync-state.json | Push/pull timestamps and sync hashes. No remote backup.
+user-progress.json | CLI usage tracking and preferences. No remote backup.

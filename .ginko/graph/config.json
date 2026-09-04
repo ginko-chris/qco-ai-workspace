@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "graphId": "gin_1788545607302_ec2d39",
+  "teamId": "1d05bdba-98a9-49f8-8c47-18b8c29e5078",
+  "namespace": "f816adce-26a9-45f0-819c-7a4b61d82e09/qco",
+  "projectName": "qco",
+  "visibility": "private",
+  "apiEndpoint": "https://app.ginkoai.com",
+  "documents": {
+    "adr": {
+      "enabled": true,
+      "path": "docs/adr"
+    },
+    "prd": {
+      "enabled": true,
+      "path": "docs/PRD"
+    },
+    "patterns": {
+      "enabled": true,
+      "path": ".ginko/context/modules"
+    },
+    "sessions": {
+      "enabled": true,
+      "path": ".ginko/sessions"
+    }
+  },
+  "hashes": {},
+  "lastSync": "2026-09-04T18:13:28.297Z"
+}

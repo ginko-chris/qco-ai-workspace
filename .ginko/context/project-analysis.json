@@ -1,0 +1,13 @@
+{
+  "projectName": "qco",
+  "techStack": [],
+  "projectType": "unknown",
+  "hasTests": false,
+  "testCommand": "npm test",
+  "buildCommand": "npm run build",
+  "packageManager": "npm",
+  "frameworks": [],
+  "languages": [
+    "javascript"
+  ]
+}
