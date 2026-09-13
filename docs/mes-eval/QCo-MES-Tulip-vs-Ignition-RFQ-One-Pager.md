@@ -2,7 +2,7 @@
 **Owner:** Chris · Director of AI and Technology  
 **Context:** Low-volume / high-mix assembly · ERP = NetSuite (3rd-party host ≠ corporate MSP) · Shopfloor OT minimal · Production today largely paper + NetSuite · **Dozens of new SKUs/year** (specifier GTM) · Construction sales: spec can precede PO by months  
 **Scale assumption:** **20** tablet/PC interfaces (Monthly Active Interfaces / clients)  
-**Purpose:** Vendor RFQ scorecard + internal **ROM** 5-year TCO framing — not a purchase decision.  
+**Purpose:** Vendor RFQ scorecard + internal **ROM** 5-year TCO framing + prospective operating-model sketch — not a purchase or org decision.  
 **ROM status:** License rows = published list (confirm in quote). SI rows = **example midrange estimates** — not vendor quotes. Replace when SOWs return.
 
 ---
@@ -45,6 +45,28 @@ WO **cycle time**, **FPY**, **scrap/partials** — baseline from paper/NetSuite 
 
 ### Option value (do not bake into v1 ROI without a Rock)
 Tulip-packaged advances (material flow, richer reporting, visual ML, etc.) vs Ignition DIY/modules: count in NPV **only if** you’ll exercise them in 5 years **with named owners**. Otherwise they are brochure, not benefit.
+
+
+---
+
+## 2b. Operating model sketch (prospective — advisory, not prescribed)
+
+*For “what would this look like?” conversations. Chris is **advising**, not locking an org chart. Names/FTEs are a working hypothesis to pressure-test with Production, Innovation, and Council — not a staffing mandate.*
+
+**Design intent:** MES is the execution platform for manufacturing. Continuous improvement is daily test-and-learn next to the work — not a semi-annual consultant refresh. Corporate headcount stays held while Ops grows; the bet is **metric lift** (time-to-competency, on-time from delivery release), not a new Corporate silhouette.
+
+**One plausible shape (under consideration):**
+
+| Role | Could look like | Owns | Does not own |
+| --- | --- | --- | --- |
+| **Production Director** | Outcome owner | Priority rank + accept/reject for the floor | Backlog grooming / ticket writing (protects production duties) |
+| **CIO designee** | ~**5 hrs/week** steady (~0.125 FTE); **8–12 hrs** in surge weeks | Backlog hygiene: clarity, sequencing, thin WIP, ready-ready | Setting shop priority (Production ranks); building apps |
+| **Tulip-shaped builder** | ~**0.5 FTE** — prefer upskilled Ops/ME; or hire structured as shared CI/NPI capacity | Build/change station apps, SOP-in-app, photos/issues feedback | Platform vendor / NetSuite-host contracts |
+| **Director AI & Technology** | Coach + boundaries | Agile ritual coaching; platform/vendor; MSP & NetSuite-host RACI; CFO Scorecard | Owning the groom or the Production backlog |
+
+**Ritual (illustrative):** short weekly execution huddle — Production ranks, CIO designee facilitates, builder brings floor-drafted changes. Backlog tied to Scorecard levers so Innovation hygiene doesn’t drift into feature theater.
+
+**Platform implication (soft):** this shape fits a **composable / Ops-editable** tool more naturally than a specialist-only stack; Ignition remains viable if the builder skill and surge SI are explicitly funded. Decision still follows demos + capped SOWs + ROI levers in §2.
 
 ---
 
