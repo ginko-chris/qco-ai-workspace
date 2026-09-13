@@ -2,7 +2,7 @@
 **Owner:** Chris · Director of AI and Technology  
 **Context:** Low-volume / high-mix assembly · ERP = NetSuite (3rd-party host ≠ corporate MSP) · Shopfloor OT minimal · Production today largely paper + NetSuite  
 **Scale assumption:** **20** tablet/PC interfaces (Monthly Active Interfaces / clients)  
-**Purpose:** Vendor RFQ scorecard + internal **ROM** 3-year TCO framing — not a purchase decision.  
+**Purpose:** Vendor RFQ scorecard + internal **ROM** 5-year TCO framing — not a purchase decision.  
 **ROM status:** License rows = published list (confirm in quote). SI rows = **example midrange estimates** — not vendor quotes. Replace when SOWs return.
 
 ---
@@ -42,43 +42,42 @@ Operator loop on a station device:
 
 ---
 
-## 3. ROM 3-year TCO (filled — midrange SI)
+## 3. ROM 5-year TCO (filled — midrange SI + Ignition Care)
 
 ### SI rate assumption (ROM)
 | Item | Value | Basis |
 | --- | --- | --- |
-| Blended SI / partner rate | **$150 / hr** | Mid of common Ignition/MES freelancer–SI bands (~$125–$175) and industrial SI (~$100–$200) |
-| Scope of SI $ | Pilot only: design, build, NetSuite **read** connector, label + photo, station rollout pattern for **20** interfaces, train-the-trainer | Excludes tablets/printers/cameras, NetSuite-host change fees, MSP, travel, year-2+ CoE |
-| Care assumption (Ignition lanes) | **TotalCare 20%** of retail / yr | Inductive published Care tiers |
+| Blended SI / partner rate | **$150 / hr** | Mid of common Ignition/MES bands (~$125–$175) and industrial SI (~$100–$200) |
+| Scope of SI $ | Pilot only: design, build, NetSuite **read** connector, label + photo, station pattern for **20** interfaces, train-the-trainer | Excludes tablets/printers/cameras, NetSuite-host fees, MSP, travel, CoE retainers |
+| Ignition S&M | **TotalCare 20%** of retail / yr × **5 years** | Inductive published Care (Basic 16% / Total 20% / Priority 24%) — use TotalCare as mid |
+| Tulip S&M | Bundled in SaaS subscription | No separate Care line; premium support is add-on (not in ROM) |
 
-### Effort assumptions (hours × $150)
+### Effort assumptions (hours × $150) — unchanged
 | Lane | Pilot hours (mid) | SI $ (mid) | Rationale |
 | --- | --- | --- | --- |
-| **A. Tulip Professional** | **350 hrs** | **$52,500** | Composable apps + library NetSuite connector + station templates; aligns with ~6–8 wk guided / jumpstart-class effort |
-| **B. Ignition DIY** | **700 hrs** | **$105,000** | Custom Perspective WIP/QC/timers/print/camera + NetSuite HTTP + DB model; no Sepasoft shortcuts |
-| **C. Ignition + Sepasoft** | **550 hrs** | **$82,500** | Track & Trace / procedure patterns reduce greenfield; still config + NetSuite + UX + training |
+| **A. Tulip Professional** | **350 hrs** | **$52,500** | Composable apps + library NetSuite connector + station templates |
+| **B. Ignition DIY** | **700 hrs** | **$105,000** | Custom Perspective WIP/QC/timers/print/camera + NetSuite HTTP + DB |
+| **C. Ignition + Sepasoft** | **550 hrs** | **$82,500** | Track & Trace patterns reduce greenfield; still config + NetSuite + UX |
 
-*Low/high bands (same rate): A 250–450 hrs ($37.5–67.5k); B 550–900 hrs ($82.5–135k); C 400–700 hrs ($60–105k).*
+*Low/high bands (same rate): A 250–450 hrs; B 550–900 hrs; C 400–700 hrs.*
 
-### License + Care (3 years)
-| Lane | Yr0 software | Recurring (×3 yrs) | Software + Care 3-yr |
-| --- | --- | --- | --- |
-| **A. Tulip Pro 20 MAI** | — (SaaS) | **$60,000 × 3 = $180,000** | **$180,000** |
-| **B. Ignition DIY** | **$14,700** (Platform + App Building) | Care **$2,940/yr × 3 = $8,820** | **$23,520** |
-| **C. Ignition + Sepasoft** | **$14,700** + Track & Trace **$22,700** + Business Connector **$5,400** = **$42,800** | Care **$8,560/yr × 3 = $25,680** | **$68,480** |
-
-### ROM 3-year totals (software + Care + pilot SI)
-| Lane | Software + Care (3-yr) | Pilot SI (mid) | **ROM 3-yr total** | vs Tulip |
+### License + annual S&M (5 years)
+| Lane | Yr0 perpetual software | Annual S&M | S&M × 5 yrs | Software + S&M (5-yr) |
 | --- | --- | --- | --- | --- |
-| **A. Tulip Professional** | $180,000 | $52,500 | **~$233k** | — |
-| **B. Ignition DIY** | $23,520 | $105,000 | **~$129k** | **~−$104k** vs A |
-| **C. Ignition + Sepasoft** | $68,480 | $82,500 | **~$151k** | **~−$82k** vs A |
+| **A. Tulip Pro 20 MAI** | — (SaaS) | **$60,000/yr** (sub includes support) | **$300,000** | **$300,000** |
+| **B. Ignition DIY** | **$14,700** | Care **$2,940/yr** (20% × $14,700) | **$14,700** | **$29,400** |
+| **C. Ignition + Sepasoft** | **$42,800** ($14,700 + T&T $22,700 + Biz Connector $5,400) | Care **$8,560/yr** (20% × $42,800) | **$42,800** | **$85,600** |
 
-**Not in the ~$129–233k band:** station hardware, label printers, cameras, NetSuite host professional services, MSP, internal SME time, AI Action overages (Tulip), redundancy gateway, year-2+ retainers. Add **~$15–40k** hardware ROM separately if 20 tablets + a few printers/cameras.
+### ROM 5-year totals (software + S&M/Care + pilot SI)
+| Lane | Software + S&M (5-yr) | Pilot SI (mid) | **ROM 5-yr total** | vs Tulip |
+| --- | --- | --- | --- | --- |
+| **A. Tulip Professional** | $300,000 | $52,500 | **~$353k** | — |
+| **B. Ignition DIY** | $29,400 | $105,000 | **~$134k** | **~−$219k** vs A |
+| **C. Ignition + Sepasoft** | $85,600 | $82,500 | **~$168k** | **~−$185k** vs A |
 
-**Sustainment (ROM, years 2–3, optional add):** Tulip light partner / internal app owner **~$10–20k/yr**; Ignition DIY named resource or retainer **~$25–40k/yr**; Ignition+Sepasoft **~$20–30k/yr**. Not rolled into table above.
+**Still excluded:** station hardware, NetSuite-host PS, MSP, travel, AI Action overages, redundancy gateway, **year-2+ app retainers / internal FTE** (see below).
 
----
+**Optional sustainment retainers (years 2–5, not in totals):** Tulip light partner **~$10–20k/yr**; Ignition DIY **~$25–40k/yr**; Ignition+Sepasoft **~$20–30k/yr**. If you bake mid DIY retainer ($30k × 4 yrs = $120k) into B, DIY 5-yr climbs to **~$254k** — still usually under Tulip, but the gap narrows fast without an internal Ignition owner.
 
 ## 4. Scorecard — pre-demo ROM scores (1–5) · replace after demos
 
@@ -90,7 +89,7 @@ Operator loop on a station device:
 | NetSuite read (WO/BOM) effort (15%) | **4** | **3** | **3** | Tulip library connector; all need host cooperation |
 | Customization speed / low-code (15%) | **5** | **2** | **3** | Ops can own Tulip apps; Ignition needs specialists |
 | AI acceleration (build + ops) (10%) | **4** | **2** | **2** | Native Tulip AI agents/assist; Ignition = external/AI-written scripts |
-| 3-yr software+SI TCO @ 20 ifaces (15%) | **2** | **5** | **4** | From §3 ROM (~$233k / ~$129k / ~$151k) |
+| 5-yr software+S&M+SI TCO @ 20 ifaces (15%) | **2** | **5** | **4** | From §3 ROM (~$353k / ~$134k / ~$168k) |
 | Ops burden (MSP + NetSuite host + internal) (10%) | **4** | **2** | **3** | SaaS vs gateway ownership |
 | High-mix / partials / genealogy (10%) | **4** | **3** | **5** | Sepasoft T&T strongest out of box |
 | Scale to 50–100 stations later (5%) | **2** | **5** | **5** | Tulip MAI scales $; Ignition clients flat |
@@ -115,13 +114,13 @@ Ignition+Sepasoft: 4×0.20+3×0.15+3×0.15+2×0.10+4×0.15+3×0.10+5×0.10+5×0.
 
 ---
 
-## 6. Internal decision rule (updated with ROM)
+## 6. Internal decision rule (updated with 5-yr ROM)
 
-- **ROM says:** Ignition DIY is cheapest on paper (**~$129k / 3 yr**); Tulip is highest (**~$233k**) but likely fastest calendar and Ops-owned change; Ignition+Sepasoft sits mid (**~$151k**) with better genealogy out of box.  
-- Prefer **Tulip** if calendar-to-pilot, AI-in-platform, and Ops-owned app changes beat ~$80–100k of 3-yr license premium.  
-- Prefer **Ignition DIY** only if a **named Ignition-fluent owner or SI** is funded — the $105k pilot SI (and sustainment) is the real cost, not the $15k license.  
-- Prefer **Ignition + Sepasoft** if genealogy/partials are non-negotiable in v1 and you still want unlimited clients.  
-- Do **not** choose on unlimited-client sticker price alone. **Replace ROM SI with vendor-capped SOWs before Council money ask.**
+- **ROM says (5 yr, Care included on Ignition):** Ignition DIY **~$134k**; Ignition+Sepasoft **~$168k**; Tulip Pro **~$353k**. License+Care gap widens vs 3-yr because Tulip SaaS keeps accruing while Ignition Care is ~20% of a one-time license.  
+- Prefer **Tulip** if calendar-to-pilot, AI-in-platform, and Ops-owned app changes are worth ~$180–220k of 5-yr premium over Ignition lanes.  
+- Prefer **Ignition DIY** only if a **named Ignition-fluent owner or SI** is funded — pilot SI (~$105k) plus Care (~$3k/yr) are the real costs, not the $15k license; add retainer if no internal owner.  
+- Prefer **Ignition + Sepasoft** if genealogy/partials are non-negotiable in v1 and you still want unlimited clients (**~$168k / 5 yr** ROM).  
+- Do **not** choose on unlimited-client sticker price alone. **Replace ROM SI + Care with vendor-capped SOWs before Council money ask.**
 
 ---
 
