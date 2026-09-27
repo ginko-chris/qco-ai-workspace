@@ -45,14 +45,14 @@ Spec comes months before purchase, so assume **no benefit in Year 1**. Payback h
 **Formula:** Annual benefit = (extra projects won × avg project $ × GM%) + (quote/rework errors avoided × $ per error) + faster specifier response (shows up as wins).
 **Break-even revenue / yr (Yrs 2–3)** = (3-yr Revit cost ÷ 2 − error savings) ÷ GM%.
 
-**Table 3: Assumptions QCo must fill in: GM = 40%, avg large project = $100k**
+**Table 3: Assumptions QCo must fill in: GM = 40%, large project = $500k (mid-sized = $100k)**
 | Scenario | 3-yr Revit cost | Break-even revenue / yr | ≈ Extra projects / yr |
 |---|---|---|---|
-| Low | ~$248k | ~$310k | ~3 |
-| **Mid** | **~$431k** | **~$539k** | **~5–6** |
-| High | ~$662k | ~$828k | ~8 |
+| Low | ~$248k | ~$310k | <1 large (~3 mid-sized) |
+| **Mid** | **~$431k** | **~$539k** | **~1 large (~5–6 mid-sized)** |
+| High | ~$662k | ~$828k | ~2 large (~8 mid-sized) |
 
-**Plain read:** at mid cost, **the bet pays back if it moves ~5–6 additional large projects (~$540k revenue) per year** starting in Year 2. That's less if error savings are real. If Revit also had to carry the full foundation, the mid hurdle rises to ~$790k (~8 projects). Sales should sanity-check this against our annual large-spec opportunity count, win rate, and deals we know we lost to the competitor's plugin.
+**Plain read:** at mid cost, **the bet pays back if it moves ~1 additional large project ($500k), or ~5–6 mid-sized projects (~$540k revenue), per year** starting in Year 2. That's less if error savings are real. If Revit also had to carry the full foundation, the mid hurdle rises to ~$790k (~1.6 large projects). Sales should sanity-check this against our annual large-spec opportunity count, win rate, and deals we know we lost to the competitor's plugin.
 
 ## 4. Decision asks and stage gates
 - **Ask now:** (1) Make it a Rock to certify polyurethane-rigid rules: R&D engineer at ~0.5 FTE, product director in fixed review blocks. (2) Authorize quote calls with BIMStreamer, CADENAS and BIMobject. (3) Sales supplies the Table 3 inputs.
