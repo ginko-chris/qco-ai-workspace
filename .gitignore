@@ -10,3 +10,7 @@ build/
 .ginko/config.json
 .ginko/local.json
 .ginko/.temp/
+
+# Raw web scrapes (vendor pages, embedded site keys) - reproducible, keep out of git
+research/
+*.bak
