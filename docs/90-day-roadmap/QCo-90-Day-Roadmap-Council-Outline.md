@@ -182,3 +182,42 @@ Adopted:
 - **Production spine:** largely **paper-based** and **NetSuite-driven**.
 - **NetSuite hosting** = third party **distinct from** corporate MSP → **two control planes** (MSP cadence + NetSuite host cadence).
 - **Capability / Rock harvest bias:** prefer NetSuite + paper workflows (order-to-cash, inventory, scheduling, handoffs from paper→ERP) when nominating Rock-assist candidates and certified slices — not shopfloor control systems.
+
+---
+
+## Bifurcation (Chris / CoS, 2026-09-06): Roadmap framing vs landing criteria
+
+**Week-one posture (invert):** Lead with *“What is QCo’s vision and which Rocks matter?”* — humility and curiosity. The pocket plan is Chris’s **private operating model**, not a splashy assertion of “Chris’s vision.”
+
+### (A) Roadmap framing — socialize carefully
+What Council/leadership can hear without overclaiming day one:
+
+| Element | Notes |
+| --- | --- |
+| Four pillars as a **learning agenda** | Capability harvest, Rock-assist, tooling baseline, dual vendor control — framed as how Chris will learn and contribute, not finished recommendations |
+| EOS-native Rock-assist (2–3) + certified slices | In-stride progress thesis |
+| Tier-by-job models; anti-surrender coaching norms | Design rules, not vendor picks |
+| Explicit non-goals | No company-wide KM program, no MSP RFP, no AI-everywhere |
+| D30/60/90 “what you’ll see” | Learning milestones + one visible supervised assist if bandwidth allows |
+
+**Challenges tagged (A):** SoT/certified-slice gates on Rock assists (#5 partial); acceptable-use/IP as a Council conversation (#6); Rock-assist Scorecard metrics (#7); coaching norms (#8); NetSuite field trustworthiness as discovery (#9); D30 visible assist vs pure diagnostic (#10); change-capacity / what we defer if snapped (#3 as shared non-goals).
+
+### (B) Chris landing criteria — ruthless personal checklist
+Not all for the speak sheet. These make Chris *effective* in the seat:
+
+| # | Criterion | Why |
+| --- | --- | --- |
+| B1 | **Relationship map** (Rock owners, NetSuite power users, MSP + NetSuite-host escalation humans) | Rock-assist and dual cadence stall without people |
+| B2 | **Week-1 access** — read/admin as needed to MSP tickets/spend + NetSuite host tickets/change queue | Scorecard is fiction without sightlines |
+| B3 | **CFO Scorecard contract** — which weekly numbers Chris shows CFO vs Council | Reports to CFO; avoid “busy but unreadable” |
+| B4 | **MSP ↔ NetSuite RACI** (identity/workstation vs ERP app vs integrations) | Orphaned tickets between two firms |
+| B5 | **NetSuite-down playbook ask** (RTO/RPO, who declares, how paper floor runs) | Outage = production rekey chaos |
+| B6 | **Spend split** — MSP + NetSuite host $ visible on dual Scorecard | Half-portfolio control otherwise |
+| B7 | **Change collision calendar** — MSP patches vs NetSuite customizations | Self-inflicted outages |
+| B8 | **Certified-slice owners named** per Rock-assist | Invalidation/review doesn’t staff itself |
+| B9 | **Personal defer list** if bandwidth snaps | Protect landing; don’t silently drop B-items |
+
+**Challenges tagged (B):** relationship map (#1); CFO Scorecard (#2); day-one access (#11); RACI (#12); outage playbook (#13); spend split (#14); change collision (#15); slice owners (#5); personal capacity defer (#3).
+
+**Speak sheet rule:** Week-one room voice = mostly **(A)** + questions. **(B)** stays Chris’s private landing checklist (and CoS accountability).
+

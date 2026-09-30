@@ -5,7 +5,7 @@
 ---
 
 ## BLUF
-I’m not delivering a finished AI program on day one. I’m running a **90-day plan** that fits **company EOS**: learn the landscape, get control of AI + Business/Ops IT in my portfolio, and make progress **on Rocks already in flight** — with knowledge management only where accuracy matters (certified slices).
+Week one I’m here to **learn QCo’s vision and Rocks** — not to present “Chris’s vision.” This page is my **operating model** (how I’ll learn and contribute under company EOS). Recommendations come after time in the seat. Progress means assisting **Rocks already in flight**, with knowledge management only on the **critical few** where accuracy matters.
 
 ---
 
@@ -61,3 +61,8 @@ I’m not delivering a finished AI program on day one. I’m running a **90-day 
 - **Production spine:** largely **paper-based** and **NetSuite-driven**.
 - **NetSuite hosting** = third party **distinct from** corporate MSP → **two control planes** (MSP cadence + NetSuite host cadence).
 - **Capability / Rock harvest bias:** prefer NetSuite + paper workflows (order-to-cash, inventory, scheduling, handoffs from paper→ERP) when nominating Rock-assist candidates and certified slices — not shopfloor control systems.
+
+---
+
+## Posture note (2026-09-06)
+Speak sheet = **Roadmap framing (A)** — humble, learn-first. Ruthless **Landing criteria (B)** live in `QCo-Chris-Landing-Criteria.md`, not as week-one assertions.
