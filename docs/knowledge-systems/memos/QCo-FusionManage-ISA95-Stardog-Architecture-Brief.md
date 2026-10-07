@@ -1,5 +1,7 @@
 # QCo Target-State Architecture Brief: Fusion Manage, NetSuite (ERP, Planning, WMS), Tulip MES, ISA-95/B2MML, and a Knowledge Graph as the AI Foundation
 
+> **Superseded recommendation (2026-10-07).** This brief's recommendation of a thinner crosswalk store as the starting point has been replaced. Stardog is now the complete product model, covering every product, assembly and sub-assembly, using OWL, SKOS and SHACL. The crosswalk lives inside Stardog as certified ID links. See `QCo-SalesLayer-PIM-Fit-Options-Brief.md` v0.3, §1.
+
 **From:** Knowledge Graph Architect
 **For:** Chris (Director of AI & Technology); for onward use with the QCo AI Council and the Agile PM
 **Date:** 2026-09-25
