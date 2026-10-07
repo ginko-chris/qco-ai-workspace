@@ -12,5 +12,5 @@ build/
 .ginko/.temp/
 
 # Raw web scrapes (vendor pages, embedded site keys) - reproducible, keep out of git
-research/
+/research/
 *.bak
